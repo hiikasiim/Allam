@@ -68,6 +68,18 @@
                 text-align: center;
                 font-size: 14px;
             }
+            .background-video {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
         </style>
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="https://www.youtube.com/watch?v=mnNzR6L31pg" type="video/mp4">
+        </video>
     </body>
 </html>
